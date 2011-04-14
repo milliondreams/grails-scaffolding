@@ -1,5 +1,13 @@
 This is a sample project for prototyping changes to Grails scaffolding.
 
+# Updates in this branch
+ * Fixed highlighting colors for a text box
+ * New indication method for compulsory fields (left border thicker and brick red) - inspired by salesforce's approach
+ * Made the alert message smaller and centered so it doesn't hide the whole banner everytime it comes.
+ * Reducing the text size to about 80%, default text size for body content in browers was 16px, in this it is roughly 13px
+ * Fixed the page background color and gradient
+
+
 # To-Do
 
 ## Bugs
@@ -54,7 +62,7 @@ This is a sample project for prototyping changes to Grails scaffolding.
 ## Mobile considerations
 
  * Test on iOS, Android, Blackberry, Kindle
- * Optimise inputs (e.g. not sure the autocomplete really works in iOS)
+ * Optimise inputs (e.g. not sure the autocomplete really works in iOS) [Rohit: It works, tested on iOS 4.2 and Android 2.3 too]
 
 ## Accessibility
 
@@ -68,3 +76,4 @@ This is a sample project for prototyping changes to Grails scaffolding.
  * Test the use of many-to-many on create as it might not work
  * Generate "edit this" links next to links to 1:m domains
  * Check that links to related objects are correct if the controller is named something other than the domain class name + 'Controller'
+ 
