@@ -7,7 +7,7 @@ input, select, textarea {
 /* BASE LAYOUT */
 
 html {
-    background-color: #AAAAAA;
+    background-color: #DDDDDD;
     background-image: -moz-linear-gradient(center top, #AAAAAA, #DDDDDD);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #AAAAAA), color-stop(1, #DDDDDD));
     background-image: linear-gradient(top, #AAAAAA, #DDDDDD);
